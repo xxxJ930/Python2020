@@ -1,7 +1,7 @@
 from socket import *
 
 sock = socket()
-sock.bind(("0.0.0.0", 8888))
+sock.bind(("0.0.0.0", 8000))
 sock.listen(3)
 
 c, addr = sock.accept()
